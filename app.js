@@ -15,7 +15,7 @@ app.use(express.static('public'));
 app.use(bodyParser.json());
 
 // Routes
-app.use('/events', eventsRouter);
+app.use('/events', events);
 
 
 

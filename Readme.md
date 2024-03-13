@@ -62,8 +62,6 @@ For detailed information about the versions of these dependencies, please refer 
 ## GitHub Link to project 
 
 `https://github.com/00016577/WT_CW2_00016577.git`
-<<<<<<< HEAD
+
 using this link you can see the project on Git Hub
-=======
-using this link you can see the project on GitHub
->>>>>>> ddb737e88b1f0b7be17a1f0f82d6710c971ecd70
+

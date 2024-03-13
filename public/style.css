@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Big+Shoulders+Display:wght@100..900&family=Madimi+One&family=Play:wght@400;700&display=swap');
+body {
+    font-family: "Madimi One", sans-serif;
+    font-size: large;
+    font-weight: 500;
+    margin: 20px;
+    background: linear-gradient(to right, lightblue, rgb(151, 143, 221));
+  }
+
+  h1 {
+    font-family: "Aldrich", sans-serif;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+  }
+
+  form {
+    margin-bottom: 20px;
+    background: linear-gradient(to right, rgb(209, 226, 231), rgb(212, 208, 242));
+    padding: 20px;
+    border-radius: 10px; /* rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+  }
+
+  button {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
+  .event {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .event p {
+    margin: 5px 0;
+  }
+
+  .delete-btn {
+    background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  }
+
+  .delete-btn:hover {
+    background-color: #d32f2f;
+  }
+
+  .update-btn {
+    background-color: #4caf50;
+    color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;;
+  padding: 10px 20px;
+  cursor: pointer;
+  }
+
+  .update-btn:hover {
+    background-color: #45a049;
+  }
+  /* --------------------------- */
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .event {
+    flex: 0 0 calc(33.3333% - 20px);
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-image {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }

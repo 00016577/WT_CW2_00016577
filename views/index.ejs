@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Planning App</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>Event Planning App</h1>
+
+  <form id="eventForm">
+    <label for="title">Title:</label>
+    <input type="text" id="title" name="title" required>
+
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date" required>
+
+    <label for="location">Location:</label>
+    <input type="text" id="location" name="location" required>
+
+    <label for="description">Description:</label>
+    <textarea id="description" name="description" required></textarea>
+
+    <button type="submit">Create Event</button>
+  </form>
+
+  <form id="updateForm" style="display: none;">
+    <input type="hidden" id="updateId">
+
+    <label for="updateTitle">Title:</label>
+    <input type="text" id="updateTitle" required>
+
+    <label for="updateDate">Date:</label>
+    <input type="date" id="updateDate" required>
+
+    <label for="updateLocation">Location:</label>
+    <input type="text" id="updateLocation" required>
+
+    <label for="updateDescription">Description:</label>
+    <textarea id="updateDescription" required></textarea>
+
+    <button type="submit">Update Event</button>
+  </form>
+
+  <div id="eventsList"></div>
+
+  <% if (showCongratsMessage) { %>
+  <div class="event">
+    <img src="pictures/congrats.jpg" alt="Event image" class="event-image">
+    <h2 class="event-title">Thank you for creating new event!</h2>
+    <p class="event-date">This web application was created to fulfill Web Technology module’s requirements and does not represent an actual company or service</p>
+  </div>
+  <% } %>
+
+  <script src="main.js"></script>
+</body>
+</html>

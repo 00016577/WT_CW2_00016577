@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Graduation Party",
+    "date": "2026-05-21",
+    "location": "Not specified",
+    "description": "This is a default event.",
+    "id": 0,
+    "deletable": false
+  },
+  {
+    "title": "Anvar's event",
+    "date": "2024-03-13",
+    "location": "sdfg",
+    "description": "welcome eveyone!",
+    "id": 1710324839152
+  },
+  {
+    "title": "Birthday of the cat!",
+    "date": "2024-03-03",
+    "location": "Tashkent",
+    "description": "welcome everybody!",
+    "id": 1710326687797
+  }
+]

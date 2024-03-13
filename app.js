@@ -20,7 +20,7 @@ app.use('/events', eventsRouter);
 // Root route
 app.get('/', (req, res) => {
   // Render the EJS template
-  res.render('index', { showCongratsMessage: true }); // Pass any necessary data to your template
+  res.render('index', { showCongratsMessage: true }); 
 });
 
 // Start the server

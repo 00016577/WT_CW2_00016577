@@ -2,13 +2,13 @@
   {
     "title": "Graduation Party",
     "date": "2026-05-21",
-    "location": "Not specified",
+    "location": "Not specified yet",
     "description": "This is a default event.",
     "id": 0,
     "deletable": false
   },
   {
-    "title": "Anvar's event",
+    "title": "my new event",
     "date": "2024-03-13",
     "location": "sdfg",
     "description": "welcome eveyone!",

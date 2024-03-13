@@ -1,6 +1,6 @@
-// events.js
+// Initialize express router
 const express = require('express');
-const fs = require('fs'); // Import the fs module
+const fs = require('fs'); 
 const { body, validationResult } = require('express-validator');
 const router = express.Router();
 
@@ -26,13 +26,13 @@ router.get('/', (req, res) => {
 router.post('/', (req, res) => {
   const events = readEvents();
   const newEvent = req.body;
-  newEvent.id = Date.now(); // Use timestamp as a simple unique ID
+  newEvent.id = Date.now(); // Add a unique ID
   events.push(newEvent);
   writeEvents(events);
   res.json(newEvent);
 });
 
-// Get a specific event by ID
+// Get an event by ID
 router.get('/:id', (req, res) => {
   const eventId = parseInt(req.params.id);
   const event = events.find((e) => e.id === eventId);

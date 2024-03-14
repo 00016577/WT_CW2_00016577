@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js", // Modify this line to match the command to start your Express server
+    "start": "node app.js", // Modify this line to match the command to start your Express server
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

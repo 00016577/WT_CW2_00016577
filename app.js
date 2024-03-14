@@ -3,7 +3,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const eventsRouter = require('./routes/events');
 const app = express();
-const PORT = 3000;
+const PORT = 80;
 
 // Set EJS as the view engine
 app.set('view engine', 'ejs');
